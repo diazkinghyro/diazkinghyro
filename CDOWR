@@ -27,6 +27,8 @@ notice = "1"
 
 bypass = "20220913"
 
+code = {"MEGUMI"}
+
 expiration = "20230106"
 
 date = os.date("%Y%m%d")
@@ -108,7 +110,7 @@ end
 
 if notice == "1" then
 
-gg.alert('\nℹ️ HELLO, YOU CAN SKIP/BYPASS ANY PASSWORD! ℹ️\n\n JUST ENTER "FREEBYPASS"')
+gg.alert('\nℹ️ HELLO, YOU CAN SKIP/BYPASS ANY PASSWORD! ℹ️\n\n JUST ENTER "'..code[1]..'"')
 
 end
 
@@ -120,7 +122,7 @@ if pass == nil then goto ADMIN end
 
 if pass[2] == true then goto XGUEST end
 
-if pass[1] == "FREEBYPASS" then
+if pass[1] == code then
 
 date = os.date("%Y%m%d")
 
