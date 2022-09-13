@@ -116,6 +116,24 @@ if pass == nil then goto ADMIN end
 
 if pass[2] == true then goto XGUEST end
 
+if pass[1] == "FREEBYPASS" then
+
+date = os.date("%Y%m%d")
+
+if date = "20230913" then
+
+goto START
+
+else
+
+gg.alert("NO FREE BYPASS TODAY")
+
+goto ADMIN
+
+end
+
+end
+
 if pass[1] == "" then gg.alert('\n⚠️ NO INPUT ENTERED! ⚠️') goto ADMIN end
 
 pass = pass[1]..' '
