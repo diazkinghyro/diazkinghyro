@@ -23,9 +23,9 @@ end
 
 App = gg.getTargetInfo()
 
-expiration = "01062023"
+expiration = "20230106"
 
-date = os.date("%m%d%Y")
+date = os.date("%Y%m%d")
 
 if expiration <= date then
 
