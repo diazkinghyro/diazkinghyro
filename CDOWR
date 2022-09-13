@@ -346,7 +346,7 @@ gg.sleep(1500)
 
 ::XMENU::
 
-XMENU = gg.prompt({'PLEASE TURN IT ON YOUR DESIRED OPTIONS\n\nENABLE = 1                |                DISABLE = 0\n---------------------------------------------------------------------------\nNO RECOIL + NO RELOAD[0; 1]','\nSPEED HACK[0; 1]','\nQUICK RESPAWN FOR FFA[0; 1]'},nil,{'number','number','number'})
+XMENU = gg.prompt({'PLEASE TURNED ON BY YOUR DESIRED OPTIONS\n\nENABLE = 1                |                DISABLE = 0\n---------------------------------------------------------------------------\nNO RECOIL + NO RELOAD[0; 1]','\nSPEED HACK[0; 1]','\nQUICK RESPAWN FOR FFA[0; 1]'},nil,{'number','number','number'})
 
 if XMENU == nil then
 
