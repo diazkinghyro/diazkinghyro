@@ -430,7 +430,7 @@ return Main()
 end
 
 function Main()
-local menu=gg.choice({'>> START SCRIPT','>> ABOUT'},nil, '------- SIMPLE HACK -------\n----- LORDKINGDIAZ -----')
+local menu=gg.choice({'>> START SCRIPT','>> ABOUT'},nil, '------- SIMPLE HACK -------\n------ LORDKINGDIAZ ------')
 
 if menu==nil then HIDE() end
 if menu == 1 then START() end
