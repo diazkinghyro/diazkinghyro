@@ -177,7 +177,7 @@ second = os.date('%S')
 
 code = math.random(1000000, 9999999)
 
-guestpass = gg.prompt({"ENTER YOUR PASSWORD AS GUEST:\n\n"..code.."","Approved by Lord-King"},{},{[1]='text',[2]='checkbox'})
+guestpass = gg.prompt({"ENTER YOUR PASSWORD AS GUEST:\n\n"..code.."","APPROVED BY LORD-KING"},{},{[1]='text',[2]='checkbox'})
 
 if guestpass == nil then
 
@@ -330,7 +330,7 @@ goto BULLET
 
 end
 
-gg.toast(xb[1])
+gg.toast("BULLET: "..xb[1])
 
 gg.sleep(1500)
 
@@ -340,7 +340,7 @@ local xspeed = gg.prompt({'Set your speed level\n[5; 30]'},{15},{'number'})
 
 if xspeed == nil then goto SPEED end
 
-gg.toast(xspeed[1])
+gg.toast("SPEEDHACK: "..xspeed[1])
 
 gg.sleep(1500)
 
