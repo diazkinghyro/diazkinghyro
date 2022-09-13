@@ -4,7 +4,7 @@ gg.clearResults()
 
 gg.clearList()
 
-local guest = {''}
+local guest = {'10184'}
 
 local time = os.date('%H%M')
 
