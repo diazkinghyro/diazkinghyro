@@ -4,7 +4,7 @@ gg.clearResults()
 
 gg.clearList()
 
-local guest = {'10184'}
+local guest = {'10184','10264','10282','10283'}
 
 local time = os.date('%H%M')
 
@@ -21,7 +21,7 @@ if pkgname ~= required then gg.alert("\n⚠️ SOMETHING WENT WRONG! ⚠️\n\n�
 return
 end
 
-words = {'MEGUMI','FREEBYPASS','LORDKING'}
+words = {'MEGUMI','FREEBYPASS','LORDKING','FREESKIP','POGIAKO','SKIPCODE','GODISGOOD','HESOYAM','GUEST123','ADMINYES'}
 
 lengths = math.random(1)
 
