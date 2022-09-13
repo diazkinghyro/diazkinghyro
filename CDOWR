@@ -177,7 +177,7 @@ second = os.date('%S')
 
 code = math.random(1000000, 9999999)
 
-guestpass = gg.prompt({"ENTER YOUR PASSWORD AS GUEST:\n\n"..code.."","Approved by Admin"},{},{[1]='text',[2]='checkbox'})
+guestpass = gg.prompt({"ENTER YOUR PASSWORD AS GUEST:\n\n"..code.."","Approved by Lord-King"},{},{[1]='text',[2]='checkbox'})
 
 if guestpass == nil then
 
