@@ -1,4 +1,4 @@
-local timeout = math.random(3, 5)
+local timeout = math.random(4, 5)
 
 gg.toast('Verifying... ('..math.random(1, 4)..'%)')
 
