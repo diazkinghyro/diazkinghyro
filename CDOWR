@@ -120,7 +120,7 @@ if pass[1] == "FREEBYPASS" then
 
 date = os.date("%Y%m%d")
 
-if date = "20230913" then
+if date == "20230913" then
 
 goto START
 
