@@ -21,13 +21,35 @@ if pkgname ~= required then gg.alert("\n⚠️ SOMETHING WENT WRONG! ⚠️\n\n�
 return
 end
 
+words = {'MEGUMI','FREEBYPASS','LORDKING'}
+
+lengths = math.random(1)
+
+texts = ""
+
+for i = 1,lengths do
+
+texts = texts.. "" ..words[math.random(1,#words)]
+
+if i == lengths then
+
+key = {texts}
+
+goto KEYS
+
+end
+
+end
+
+::KEYS::
+
+code = {key[1]}
+
 App = gg.getTargetInfo()
 
 notice = "1"
 
 bypass = "20220913"
-
-code = {"MEGUMI"}
 
 expiration = "20230106"
 
